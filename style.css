@@ -72,6 +72,7 @@ input[type=text] {
 .topnav {
   overflow: hidden;
   background-color: #333333;
+  border-radius: 12px;
 }
 
 .topnav a {
@@ -81,16 +82,19 @@ input[type=text] {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  border-radius: 12px;
 }
 
 .topnav a:hover {
   background-color: #dddddd;
   color: black;
+  border-radius: 12px;
 }
 
 .topnav a.active {
   background-color: #2684FC;
   color: white;
+  border-radius: 12px;
 }
 /* The snackbar - position it at the bottom and in the middle of the screen */
 #snackbar {
@@ -167,4 +171,10 @@ input[type=text] {
   /*when navigating through the items using the arrow keys:*/
   background-color: DodgerBlue !important;
   color: #ffffff;
+}
+.spotify {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
 }
